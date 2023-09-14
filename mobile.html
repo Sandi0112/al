@@ -1,0 +1,59 @@
+<header>
+    <link rel="stylesheet" href="mobile.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="mobile.js"></script>
+    <div class="container-stripe">
+        <div class="logo">
+            <a class="navbar-brand" href="https://allart.kz"><img src="image/image 3.png"  alt="Logo"></a>
+        </div>
+        <div class="menu-container">
+            <img src="image/menu.png" alt="menu" id="menu-icon">
+            <div class="menu-overlay" id="overlay"></div>
+            <ul class="menu" id="dropdown-menu">
+                <li><a href="#">Оформить подписку</a></li>
+                <li><a href="#">Статус заказа</a></li>
+                <li><a href="#">Открыть точку ПВЗ</a></li>
+                <li><a href="#">Открыть типографию</a></li>
+            </ul>
+        </div>      
+    </div>
+    <div class="main-header">
+        <div class="catalog">
+            <button type="button" class="button catalog-button">Каталог</button>
+        </div>
+        <div class="shop-button">
+            <button type="button" class="button b1" >Магазин для типографии</button>
+        </div>
+    </div>
+    <form method="get" action="https://allart.kz/" class="container-search"> 
+        <input type="text" class="search search1" name="s" onblur="if(this.value=='')this.value='Тойбастар,стенды...';" onfocus="if(this.value=='Тойбастар,стенды...')this.value='';" value="Тойбастар,стенды..."> 
+        <button class="button searche-button" type="submit">
+            <img src="image/search.png" class="img-search" alt="картинка поиска (лупа)">
+        </button>
+    </form>
+    <div class="container-categories ">
+        <div class="nav-categories">
+            <ul id="menu-new_menu_header-1" class="nav group">
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15922">
+                    <a href="https://allart.kz/category/dlya-uchebnyx-zavedenij" class="text">Стенды | Баннера</a>
+                </li>
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15921">
+                    <a href="https://allart.kz/category/dlya-detskix-sadov"  class="text">Тойбастар</a>
+                </li>
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15918" >
+                    <a href="https://allart.kz/category/gosudarstvennye"  class="text">Постеры| Обои</a>
+                </li>
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15920" >
+                    <a href="https://allart.kz/category/dlya-bolnic-i-poliklinik"  class="text">Шежире</a>
+                </li>
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15926" >
+                    <a href="https://allart.kz/category/prazdnik"  class="text">Буквы | Вывески</a>
+                </li>
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15917">
+                    <a href="https://allart.kz/category/texnika-bezopasnosti"  class="text">Выпускные <br>ленты</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <button type="button" class="services-button">Услуги дизайнера</button>
+</header>
